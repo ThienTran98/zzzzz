@@ -52,7 +52,7 @@ const Question = ({ question, index, onDelete }) => (
       </div>
     ) : (
       <div className='ml-4 mt-2 text-gray-600'>
-        <p>Sample Answer: {question.essayAnswer}</p>
+        <p>Sample Answers: {question.essayAnswer}</p>
       </div>
     )}
   </div>
